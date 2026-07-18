@@ -1,0 +1,373 @@
+[2026-06-21T21:53:11.755+0000] {processor.py:186} INFO - Started process (PID=167) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:11.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:53:11.760+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:11.759+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:11.790+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:11.904+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:11.904+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:demo_tmp_celery_bug
+[2026-06-21T21:53:11.913+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:11.913+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:demo_tmp_celery_bug
+[2026-06-21T21:53:11.919+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:11.919+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:demo_tmp_celery_bug
+[2026-06-21T21:53:11.927+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:11.927+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:demo_tmp_celery_bug
+[2026-06-21T21:53:11.934+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:11.934+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:demo_tmp_celery_bug
+[2026-06-21T21:53:11.941+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:11.940+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:demo_tmp_celery_bug
+[2026-06-21T21:53:11.947+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:11.946+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:demo_tmp_celery_bug
+[2026-06-21T21:53:11.948+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:11.948+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:53:11.958+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:11.958+0000] {dag.py:3262} INFO - Creating ORM DAG for demo_tmp_celery_bug
+[2026-06-21T21:53:11.960+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:11.960+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:53:11.979+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.231 seconds
+[2026-06-21T21:53:22.086+0000] {processor.py:186} INFO - Started process (PID=170) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:22.087+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:53:22.090+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:22.089+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:22.105+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:22.113+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:22.113+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:53:22.124+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:22.124+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:53:22.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.063 seconds
+[2026-06-21T21:53:32.224+0000] {processor.py:186} INFO - Started process (PID=171) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:32.226+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:53:32.228+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:32.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:32.245+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:32.254+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:32.254+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:53:32.265+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:32.265+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:53:32.282+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.065 seconds
+[2026-06-21T21:53:42.434+0000] {processor.py:186} INFO - Started process (PID=179) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:42.437+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:53:42.441+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:42.441+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:42.463+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:42.495+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:42.495+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:53:42.508+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:42.508+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:53:42.527+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.104 seconds
+[2026-06-21T21:53:52.650+0000] {processor.py:186} INFO - Started process (PID=181) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:52.651+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:53:52.653+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:52.653+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:52.670+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:53:52.694+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:52.694+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:53:52.704+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:53:52.704+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:53:52.720+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.078 seconds
+[2026-06-21T21:54:02.857+0000] {processor.py:186} INFO - Started process (PID=183) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:02.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:54:02.861+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:02.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:02.879+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:02.905+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:02.905+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:54:02.916+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:02.916+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:54:02.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.082 seconds
+[2026-06-21T21:54:13.088+0000] {processor.py:186} INFO - Started process (PID=191) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:13.090+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:54:13.094+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:13.094+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:13.114+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:13.144+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:13.143+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:54:13.156+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:13.156+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:54:13.174+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.096 seconds
+[2026-06-21T21:54:23.273+0000] {processor.py:186} INFO - Started process (PID=193) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:23.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:54:23.277+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:23.277+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:23.294+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:23.324+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:23.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:54:23.337+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:23.337+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:54:23.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.089 seconds
+[2026-06-21T21:54:33.501+0000] {processor.py:186} INFO - Started process (PID=195) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:33.503+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:54:33.505+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:33.505+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:33.524+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:33.554+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:33.554+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:54:33.565+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:33.565+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:54:33.583+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.090 seconds
+[2026-06-21T21:54:43.726+0000] {processor.py:186} INFO - Started process (PID=203) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:43.728+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:54:43.730+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:43.730+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:43.747+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:43.782+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:43.782+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:54:43.799+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:43.799+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:54:43.817+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.098 seconds
+[2026-06-21T21:54:53.926+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:53.927+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:54:53.929+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:53.929+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:53.947+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:54:53.978+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:53.978+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:54:53.991+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:54:53.990+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:54:54.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.091 seconds
+[2026-06-21T21:55:04.157+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:04.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:55:04.162+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:04.161+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:04.181+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:04.208+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:04.207+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:55:04.219+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:04.219+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:55:04.237+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.088 seconds
+[2026-06-21T21:55:14.396+0000] {processor.py:186} INFO - Started process (PID=215) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:14.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:55:14.400+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:14.400+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:14.422+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:14.461+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:14.460+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:55:14.479+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:14.479+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:55:14.499+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.112 seconds
+[2026-06-21T21:55:24.610+0000] {processor.py:186} INFO - Started process (PID=217) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:24.612+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:55:24.616+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:24.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:24.636+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:24.678+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:24.678+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:55:24.694+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:24.694+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:55:24.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.110 seconds
+[2026-06-21T21:55:34.871+0000] {processor.py:186} INFO - Started process (PID=219) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:34.873+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:55:34.875+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:34.875+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:34.899+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:34.934+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:34.934+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:55:34.952+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:34.952+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:55:34.980+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.117 seconds
+[2026-06-21T21:55:41.459+0000] {processor.py:186} INFO - Started process (PID=247) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:41.463+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:55:41.471+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:41.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:41.528+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:41.629+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:41.628+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:55:41.671+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:41.671+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:55:41.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.278 seconds
+[2026-06-21T21:55:52.553+0000] {processor.py:186} INFO - Started process (PID=269) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:52.555+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:55:52.557+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:52.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:52.575+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:55:52.605+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:52.604+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:55:52.617+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:55:52.617+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:55:52.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.096 seconds
+[2026-06-21T21:56:03.019+0000] {processor.py:186} INFO - Started process (PID=352) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:03.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:56:03.026+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:03.025+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:03.056+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:03.127+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:03.127+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:56:03.158+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:03.157+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:56:03.192+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.187 seconds
+[2026-06-21T21:56:13.330+0000] {processor.py:186} INFO - Started process (PID=361) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:13.331+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:56:13.334+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:13.334+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:13.353+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:13.380+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:13.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:56:13.393+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:13.393+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:56:13.408+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.085 seconds
+[2026-06-21T21:56:23.530+0000] {processor.py:186} INFO - Started process (PID=363) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:23.531+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:56:23.533+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:23.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:23.549+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:23.572+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:23.572+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:56:23.581+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:23.581+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:56:23.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.075 seconds
+[2026-06-21T21:56:33.752+0000] {processor.py:186} INFO - Started process (PID=365) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:33.754+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:56:33.756+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:33.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:33.773+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:33.815+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:33.815+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:56:33.831+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:33.831+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:56:33.856+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.111 seconds
+[2026-06-21T21:56:43.970+0000] {processor.py:186} INFO - Started process (PID=394) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:43.971+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:56:43.973+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:43.973+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:43.990+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:44.016+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:44.016+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:56:44.162+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:44.161+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:56:44.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.216 seconds
+[2026-06-21T21:56:54.416+0000] {processor.py:186} INFO - Started process (PID=435) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:54.427+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:56:54.433+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:54.431+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:54.492+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:56:54.584+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:54.584+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:56:54.642+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:56:54.642+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:56:54.699+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.302 seconds
+[2026-06-21T21:57:04.764+0000] {processor.py:186} INFO - Started process (PID=471) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:04.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:57:04.768+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:04.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:04.788+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:04.818+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:04.817+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:57:04.833+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:04.832+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:57:04.851+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.097 seconds
+[2026-06-21T21:57:14.960+0000] {processor.py:186} INFO - Started process (PID=479) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:14.962+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:57:14.964+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:14.964+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:14.993+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:15.023+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:15.023+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:57:15.041+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:15.040+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:57:15.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.110 seconds
+[2026-06-21T21:57:25.179+0000] {processor.py:186} INFO - Started process (PID=501) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:25.181+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:57:25.183+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:25.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:25.203+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:25.229+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:25.229+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:57:25.239+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:25.239+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:57:25.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.086 seconds
+[2026-06-21T21:57:35.496+0000] {processor.py:186} INFO - Started process (PID=522) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:35.499+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:57:35.504+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:35.503+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:35.527+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:35.574+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:35.573+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:57:35.590+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:35.589+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:57:35.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.129 seconds
+[2026-06-21T21:57:46.072+0000] {processor.py:186} INFO - Started process (PID=555) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:46.087+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:57:46.105+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:46.102+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:46.254+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:46.495+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:46.494+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:57:47.394+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:47.392+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:57:47.527+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 1.561 seconds
+[2026-06-21T21:57:58.437+0000] {processor.py:186} INFO - Started process (PID=584) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:58.443+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:57:58.456+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:58.454+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:58.559+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:57:58.852+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:57:58.851+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:58:00.009+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:00.009+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:58:00.148+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 1.757 seconds
+[2026-06-21T21:58:10.803+0000] {processor.py:186} INFO - Started process (PID=636) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:10.815+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:58:10.838+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:10.836+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:11.024+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:11.257+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:11.255+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:58:11.354+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:11.353+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:58:11.501+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.838 seconds
+[2026-06-21T21:58:22.029+0000] {processor.py:186} INFO - Started process (PID=678) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:22.037+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:58:22.056+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:22.054+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:22.288+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:22.736+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:22.722+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:58:22.982+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:22.981+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:58:23.129+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 1.154 seconds
+[2026-06-21T21:58:33.959+0000] {processor.py:186} INFO - Started process (PID=722) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:34.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:58:34.044+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:34.042+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:34.597+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:35.145+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:35.144+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:58:35.452+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:35.451+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:58:35.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 1.988 seconds
+[2026-06-21T21:58:46.350+0000] {processor.py:186} INFO - Started process (PID=771) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:46.357+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:58:46.369+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:46.368+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:46.434+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:46.644+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:46.639+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:58:46.727+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:46.726+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:58:46.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.511 seconds
+[2026-06-21T21:58:57.449+0000] {processor.py:186} INFO - Started process (PID=823) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:57.457+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:58:57.487+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:57.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:57.730+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:58:57.954+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:57.953+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:58:58.956+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:58:58.955+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:58:59.111+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 1.705 seconds
+[2026-06-21T21:59:09.609+0000] {processor.py:186} INFO - Started process (PID=879) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:59:09.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T21:59:09.657+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:59:09.653+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:59:09.815+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T21:59:09.987+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:59:09.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T21:59:10.745+0000] {logging_mixin.py:190} INFO - [2026-06-21T21:59:10.745+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T21:59:10.873+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 1.343 seconds
+[2026-06-21T22:00:04.830+0000] {processor.py:186} INFO - Started process (PID=59) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:04.836+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:00:04.853+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:04.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:04.913+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:04.973+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:04.973+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:00:05.000+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:05.000+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:00:05.036+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.224 seconds
+[2026-06-21T22:00:15.186+0000] {processor.py:186} INFO - Started process (PID=106) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:15.195+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:00:15.202+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:15.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:15.235+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:15.283+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:15.282+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:00:15.302+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:15.301+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:00:15.325+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.157 seconds
+[2026-06-21T22:00:25.586+0000] {processor.py:186} INFO - Started process (PID=180) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:25.589+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:00:25.595+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:25.594+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:25.633+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:25.709+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:25.709+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:00:25.742+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:25.742+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:00:25.779+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.209 seconds
+[2026-06-21T22:00:35.941+0000] {processor.py:186} INFO - Started process (PID=197) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:35.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:00:35.945+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:35.944+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:35.962+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:35.993+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:35.993+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:00:36.005+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:36.005+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:00:36.020+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.086 seconds
+[2026-06-21T22:00:46.141+0000] {processor.py:186} INFO - Started process (PID=205) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:46.142+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:00:46.145+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:46.144+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:46.164+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:46.197+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:46.197+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:00:46.211+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:46.210+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:00:46.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.094 seconds
+[2026-06-21T22:00:56.382+0000] {processor.py:186} INFO - Started process (PID=207) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:56.384+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:00:56.386+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:56.386+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:56.406+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:00:56.438+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:56.438+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:00:56.451+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:00:56.451+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:00:56.472+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.098 seconds
+[2026-06-21T22:01:06.626+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:06.628+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:01:06.631+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:06.630+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:06.650+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:06.682+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:06.682+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:01:06.696+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:06.695+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:01:06.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.095 seconds
+[2026-06-21T22:01:16.838+0000] {processor.py:186} INFO - Started process (PID=217) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:16.839+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:01:16.843+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:16.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:16.867+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:16.906+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:16.906+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:01:16.923+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:16.923+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:01:16.947+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.120 seconds
+[2026-06-21T22:01:27.100+0000] {processor.py:186} INFO - Started process (PID=219) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:27.101+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:01:27.104+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:27.104+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:27.123+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:27.156+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:27.155+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:01:27.168+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:27.168+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:01:27.189+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.095 seconds
+[2026-06-21T22:01:37.358+0000] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:37.360+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:01:37.362+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:37.362+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:37.387+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:37.414+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:37.414+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:01:37.428+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:37.428+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:01:37.448+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.098 seconds
+[2026-06-21T22:01:47.599+0000] {processor.py:186} INFO - Started process (PID=239) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:47.601+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:01:47.607+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:47.606+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:47.662+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:47.728+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:47.727+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:01:47.756+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:47.756+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:01:47.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.211 seconds
+[2026-06-21T22:01:57.974+0000] {processor.py:186} INFO - Started process (PID=251) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:57.976+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:01:57.978+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:57.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:58.001+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:01:58.028+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:58.027+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:01:58.039+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:01:58.039+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:01:58.056+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.089 seconds
+[2026-06-21T22:02:08.229+0000] {processor.py:186} INFO - Started process (PID=253) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:08.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:02:08.234+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:08.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:08.255+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:08.293+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:08.293+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:02:08.308+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:08.307+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:02:08.335+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.114 seconds
+[2026-06-21T22:02:18.443+0000] {processor.py:186} INFO - Started process (PID=265) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:18.444+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:02:18.447+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:18.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:18.465+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:18.493+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:18.493+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:02:18.506+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:18.506+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:02:18.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.088 seconds
+[2026-06-21T22:02:28.669+0000] {processor.py:186} INFO - Started process (PID=267) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:28.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:02:28.674+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:28.673+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:28.690+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:28.720+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:28.720+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:02:28.735+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:28.735+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:02:28.757+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.095 seconds
+[2026-06-21T22:02:38.916+0000] {processor.py:186} INFO - Started process (PID=269) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:38.918+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:02:38.922+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:38.921+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:38.942+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:38.973+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:38.972+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:02:38.984+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:38.984+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:02:39.003+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.096 seconds
+[2026-06-21T22:02:49.122+0000] {processor.py:186} INFO - Started process (PID=277) to work on /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:49.124+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/demo_tmp_celery_bug.py for tasks to queue
+[2026-06-21T22:02:49.127+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:49.127+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:49.145+0000] {processor.py:925} INFO - DAG(s) 'demo_tmp_celery_bug' retrieved from /opt/airflow/dags/demo_tmp_celery_bug.py
+[2026-06-21T22:02:49.371+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:49.370+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2026-06-21T22:02:49.379+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:49.379+0000] {dag.py:3262} INFO - Creating ORM DAG for demo_tmp_celery_bug
+[2026-06-21T22:02:49.380+0000] {logging_mixin.py:190} INFO - [2026-06-21T22:02:49.380+0000] {dag.py:4180} INFO - Setting next_dagrun for demo_tmp_celery_bug to None, run_after=None
+[2026-06-21T22:02:49.396+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/demo_tmp_celery_bug.py took 0.284 seconds

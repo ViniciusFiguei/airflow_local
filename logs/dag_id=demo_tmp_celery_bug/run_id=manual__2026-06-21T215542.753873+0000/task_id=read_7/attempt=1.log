@@ -1,0 +1,27 @@
+[2026-06-21T21:55:46.613+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2026-06-21T21:55:46.650+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: demo_tmp_celery_bug.read_7 manual__2026-06-21T21:55:42.753873+00:00 [queued]>
+[2026-06-21T21:55:46.667+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: demo_tmp_celery_bug.read_7 manual__2026-06-21T21:55:42.753873+00:00 [queued]>
+[2026-06-21T21:55:46.669+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2026-06-21T21:55:46.690+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): read_7> on 2026-06-21 21:55:42.753873+00:00
+[2026-06-21T21:55:46.703+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=229) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-06-21T21:55:46.705+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'demo_tmp_celery_bug', 'read_7', 'manual__2026-06-21T21:55:42.753873+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/demo_tmp_celery_bug.py', '--cfg-path', '/tmp/tmpeuff9zry']
+[2026-06-21T21:55:46.708+0000] {standard_task_runner.py:72} INFO - Started process 233 to run task
+[2026-06-21T21:55:46.708+0000] {standard_task_runner.py:105} INFO - Job 72: Subtask read_7
+[2026-06-21T21:55:46.807+0000] {task_command.py:467} INFO - Running <TaskInstance: demo_tmp_celery_bug.read_7 manual__2026-06-21T21:55:42.753873+00:00 [running]> on host 3f8339d18026
+[2026-06-21T21:55:46.939+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='demo_tmp_celery_bug' AIRFLOW_CTX_TASK_ID='read_7' AIRFLOW_CTX_EXECUTION_DATE='2026-06-21T21:55:42.753873+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2026-06-21T21:55:42.753873+00:00'
+[2026-06-21T21:55:46.942+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2026-06-21T21:55:46.967+0000] {logging_mixin.py:190} INFO - ======================================================================
+[2026-06-21T21:55:46.969+0000] {logging_mixin.py:190} INFO - [READ 7] ESTE WORKER -> hostname=3f8339d18026 pid=233
+[2026-06-21T21:55:46.970+0000] {logging_mixin.py:190} INFO - [READ 7] Procurando arquivo: /tmp/celery_demo/data_7.txt
+[2026-06-21T21:55:46.971+0000] {logging_mixin.py:190} INFO - ======================================================================
+[2026-06-21T21:55:46.973+0000] {logging_mixin.py:190} INFO - [READ 7] SUCESSO — arquivo encontrado neste worker.
+[2026-06-21T21:55:46.974+0000] {logging_mixin.py:190} INFO - [READ 7] Conteúdo: Arquivo 7 escrito por: hostname=3f8339d18026 pid=185
+[2026-06-21T21:55:46.976+0000] {logging_mixin.py:190} INFO - [READ 7] (write e read caíram no MESMO worker desta vez — por isso funcionou)
+[2026-06-21T21:55:46.978+0000] {python.py:240} INFO - Done. Returned value was: None
+[2026-06-21T21:55:46.999+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2026-06-21T21:55:47.006+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=demo_tmp_celery_bug, task_id=read_7, run_id=manual__2026-06-21T21:55:42.753873+00:00, execution_date=20260621T215542, start_date=20260621T215546, end_date=20260621T215547
+[2026-06-21T21:55:47.086+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2026-06-21T21:55:47.107+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-06-21T21:55:47.111+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
