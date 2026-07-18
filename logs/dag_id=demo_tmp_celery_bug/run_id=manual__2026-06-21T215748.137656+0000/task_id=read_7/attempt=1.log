@@ -1,4 +1,0 @@
-[2026-06-21T21:59:12.869+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
-[2026-06-21T21:59:12.972+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: demo_tmp_celery_bug.read_7 manual__2026-06-21T21:57:48.137656+00:00 [queued]>
-[2026-06-21T21:59:13.016+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: demo_tmp_celery_bug.read_7 manual__2026-06-21T21:57:48.137656+00:00 [queued]>
-[2026-06-21T21:59:13.022+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
