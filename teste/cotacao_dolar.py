@@ -4,32 +4,41 @@ from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
 
 
-API_URL = "https://economia.awesomeapi.com.br/json/last/USD-BRL"
+MOEDAS = {
+    "USD": "dolar",
+    "GTQ": "quetzal da Guatemala",
+    "MXN": "peso mexicano",
+    "AUD": "dólar australiano",
+}
+API_URL = "https://open.er-api.com/v6/latest/BRL"
 
 
-def buscar_cotacao_dolar() -> dict:
+def buscar_cotacoes() -> dict:
     requisicao = Request(
         API_URL,
-        headers={"User-Agent": "cotacao-dolar/1.0"},
+        headers={"User-Agent": "cotacoes-moedas/1.0"},
     )
 
     with urlopen(requisicao, timeout=10) as resposta:
-        dados = json.load(resposta)
-
-    return dados["USDBRL"]
+        return json.load(resposta)
 
 
 def main() -> None:
     try:
-        cotacao = buscar_cotacao_dolar()
-        valor = float(cotacao["bid"])
-        atualizado_em = datetime.fromtimestamp(int(cotacao["timestamp"]))
+        dados = buscar_cotacoes()
+        taxas = dados["rates"]
+        atualizado_em = datetime.fromtimestamp(int(dados["time_last_update_unix"]))
 
-        print(f"A cotação do dolar hoje é essa: R$ {valor:.2f}")
+        for codigo, nome in MOEDAS.items():
+            valor = 1 / float(taxas[codigo])
+
+            print(f"A cotação do {nome} hoje é essa: R$ {valor:.4f}")
+
         print(f"Atualizada em: {atualizado_em:%d/%m/%Y %H:%M:%S}")
+        print("Fonte: https://www.exchangerate-api.com")
     except (HTTPError, URLError, TimeoutError) as erro:
         print(f"Nao foi possivel consultar a cotacao: {erro}")
-    except (KeyError, TypeError, ValueError, json.JSONDecodeError) as erro:
+    except (KeyError, TypeError, ValueError, ZeroDivisionError, json.JSONDecodeError) as erro:
         print(f"A API retornou uma resposta inesperada: {erro}")
 
 
